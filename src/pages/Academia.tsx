@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
-
-const publications = [] // No publications for now
+import ProjectCard from '../components/ProjectCard'
+import Navbar from '../components/Navbar'
 
 const labExperience = {
   dataScience: {

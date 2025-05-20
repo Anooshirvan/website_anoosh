@@ -11,17 +11,9 @@ interface ProjectCardProps {
     demo?: string
     other?: { label: string; url: string }[]
   }
-  isAcademic?: boolean
 }
 
-export default function ProjectCard({ 
-  title, 
-  description, 
-  tags, 
-  image, 
-  links = {},
-  isAcademic = false 
-}: ProjectCardProps) {
+export default function ProjectCard({ title, description, tags, image, links }: ProjectCardProps) {
   return (
     <motion.div
       className="group relative bg-white rounded-lg overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-shadow h-full"

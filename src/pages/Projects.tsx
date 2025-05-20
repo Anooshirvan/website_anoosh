@@ -30,7 +30,10 @@ const projects = [
     tags: ["Industrial Waste Management", "Techno-economic Analysis", "Circular Economy", "Energy Policy"],
     image: "/alumina-industry.jpg",
     links: {
-      "Website": "https://clik.polito.it/challenge/a-new-life-for-alumina-based-wastes-newlaw_by-sacal/"
+      other: [{
+        label: "Website",
+        url: "https://clik.polito.it/challenge/a-new-life-for-alumina-based-wastes-newlaw_by-sacal/"
+      }]
     }
   },
   {
@@ -39,7 +42,10 @@ const projects = [
     tags: ["Data Analysis", "Carbon Emissions", "Simulink", "Energy Policy", "KPI Dashboards"],
     image: "/green-mobility.jpg",
     links: {
-      "Website": "https://clik.polito.it/news/pianificare-la-mobilita-sostenibile-del-futuro/"
+      other: [{
+        label: "Website",
+        url: "https://clik.polito.it/news/pianificare-la-mobilita-sostenibile-del-futuro/"
+      }]
     }
   },
   {

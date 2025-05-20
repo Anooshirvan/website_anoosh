@@ -2,13 +2,6 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 
-const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'Academia', href: '/academia' },
-]
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
