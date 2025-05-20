@@ -19,5 +19,6 @@
     }
   },
   "include": ["src"],
+  // Force new commit for Vercel to pick up latest changes
   "references": [{ "path": "./tsconfig.node.json" }]
 } 
