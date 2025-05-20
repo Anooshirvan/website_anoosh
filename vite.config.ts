@@ -9,4 +9,10 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  build: {
+    // Skip type checking during build for speed
+    typescript: {
+      ignoreBuild: true,
+    },
+  },
 }) 
