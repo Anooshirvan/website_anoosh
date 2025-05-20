@@ -44,7 +44,7 @@ export default function ProjectCard({ title, description, tags, image, links }: 
         </div>
         
         <div className="flex gap-4 mt-auto">
-          {links.github && (
+          {links?.github && (
             <a
               href={links.github}
               target="_blank"
@@ -56,7 +56,7 @@ export default function ProjectCard({ title, description, tags, image, links }: 
             </a>
           )}
           
-          {links.demo && (
+          {links?.demo && (
             <a
               href={links.demo}
               target="_blank"
@@ -68,7 +68,7 @@ export default function ProjectCard({ title, description, tags, image, links }: 
             </a>
           )}
           
-          {links.other?.map((link, index) => (
+          {links?.other?.map((link, index) => (
             <a
               key={index}
               href={link.url}
