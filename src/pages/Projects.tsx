@@ -10,7 +10,12 @@ const projects = [
     description: "Energy Engineer & Data Scientist Researcher working on integrating BIM, BEM, and Deep Learning for Enhanced Energy Forecasting in Industrial Facilities. Developing a Multi-Model Approach for Predictive Analytics and Real-Time Visualization.",
     tags: ["Deep Learning", "BIM", "BEM", "Energy Forecasting", "Data Science"],
     image: "/stellantis-factory.jpg",
-    links: {}
+    links: {
+      other: [{
+        label: "Website",
+        url: "https://clik.polito.it/challenge/manage-5-0/"
+      }]
+    }
   },
   {
     title: "Circular and Sustainable Inputs for Renewable Energy",
@@ -53,28 +58,36 @@ const projects = [
     description: "Conducted comprehensive techno-economic evaluation of CAES, biogas-based SOFC system in WWT, and Solar Thermal System in Domestic Application. Provided 4E framework analysis.",
     tags: ["Techno-economic Analysis", "Energy Systems", "Renewable Energy", "Data Analysis"],
     image: "/energy-systems.jpg",
-    links: {}
+    links: {
+      other: []
+    }
   },
   {
     title: "Pre-design and Re-design of WEC and Wind Farm",
     description: "Pre-design of a wave energy converter in Bulgaria and Re-Design and Repowering wind farm in Roio del Sangro, Abruzzo, Italy.",
     tags: ["Wind Energy", "Wave Energy", "Renewable Energy", "Energy Systems"],
     image: "/wind-farm.jpg",
-    links: {}
+    links: {
+      other: []
+    }
   },
   {
     title: "Degradation Mechanism of RSOFC",
     description: "Conducted literature review and study over Degradation Mechanism of RSOFC, with modeling via COMSOL and Matlab.",
     tags: ["COMSOL", "MATLAB", "Energy Systems", "Research"],
     image: "/fuel-cell.jpg",
-    links: {}
+    links: {
+      other: []
+    }
   },
   {
     title: "Solar Energy Consulting",
     description: "Worked as a renewable energy consultant, designing rooftop systems and electrification of rural areas. Provided comprehensive solar energy solutions and technical expertise.",
     tags: ["Solar Energy", "Renewable Energy", "Energy Systems", "Technical Consulting"],
     image: "/solar-installation.jpg",
-    links: {}
+    links: {
+      other: []
+    }
   }
 ]
 
