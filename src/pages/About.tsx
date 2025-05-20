@@ -139,6 +139,7 @@ export default function About() {
                   <h3 className="text-blue-600 font-medium mb-2">Programming</h3>
                   <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
                     <li>Python</li>
+                    <li>CUDA Programming</li>
                     <li>Julia</li>
                     <li>Matlab</li>
                     <li>R</li>
@@ -149,7 +150,7 @@ export default function About() {
                 <div>
                   <h3 className="text-blue-600 font-medium mb-2">Design</h3>
                   <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
-                    <li>CAD (AutoCad, SolidWorks & Revit)</li>
+                    <li>CAD (AutoCad, SolidWorks & CATIA, Revit)</li>
                     <li>Script-based CAD (Blender, CadQuery)</li>
                     <li>CNC Programming</li>
                   </ul>
