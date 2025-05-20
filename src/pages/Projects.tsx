@@ -18,7 +18,10 @@ const projects = [
     tags: ["Solar Energy", "Techno-economic Analysis", "Data Analysis", "KPI Dashboards", "Circular Economy"],
     image: "/enel-green-power.jpg",
     links: {
-      "Website": "https://clik.polito.it/challenge/circular-and-sustainable-inputs-for-renewable-energy-_by-enel-green-power/"
+      other: [{
+        label: "Website",
+        url: "https://clik.polito.it/challenge/circular-and-sustainable-inputs-for-renewable-energy-_by-enel-green-power/"
+      }]
     }
   },
   {
